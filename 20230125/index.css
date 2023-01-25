@@ -84,16 +84,10 @@ section ul li img {
   height: 300px;
   border-radius: 8px;
 }
-section ul li:hover {
-  animation-name: fadeOut;
-  animation-duration: 3s;
+section ul li {
+  overflow: hidden;
 }
-
-@keyframes fadeOut {
-  0% {
-    transform: scale(1.8);
-  }
-  100% {
-    transform: scale(1);
-  }
+section ul li img:hover {
+  transform: scale(1.5);
+  transition: 2s;
 }
