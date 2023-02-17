@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "MICEGothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Humanbumsuk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#skill {
+  background: url(./배경/img4.jpg);
+  width: 100%;
+}
+
+#skill header {
+  display: flex;
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+#skill ul {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+#skill ul li {
+  padding-right: 40px;
+}
+
+#skill ul li img:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+#skill ul li p {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+#skill i {
+  display: flex;
+  justify-content: center;
+  color: #ff8787;
+  padding-bottom: 40px;
+}
+#skill i:hover {
+  color: #ffd4d4;
+  transition: 2s;
+}

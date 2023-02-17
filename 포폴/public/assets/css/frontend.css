@@ -1,0 +1,20 @@
+#contact header img {
+  width: 100%;
+}
+#contact {
+  background: url(./배경/img3.jpg) no-repeat center center/cover;
+}
+
+#contact header {
+  display: flex;
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.from-left h2 {
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 2rem;
+  box-sizing: border-box;
+}
